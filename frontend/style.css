@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #0d0840, #09ede2);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(0,0,0,0.7);
+    padding: 25px 35px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+    width: 90%;
+    max-width: 400px;
+}
+
+.activity-box {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    transition: 0.3s all;
+}
+
+.activity-box h2 {
+    margin: 10px 0 5px;
+    font-size: 1.1em;
+    color: #09ede2;
+}
+
+.activity-box p {
+    font-size: 1.5em;
+    margin: 5px 0 10px;
+}
+
+.info {
+    font-size: 0.9em;
+    color: #ddd;
+    margin-top: 10px;
+}
